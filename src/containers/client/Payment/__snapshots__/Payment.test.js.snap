@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `ShallowWrapper {}`;
+
+exports[`renders snapshot 1`] = `
+<div
+  class="payment"
+>
+  <h3>
+    Provide data to make payment 
+  </h3>
+  <br />
+  <form
+    class="submit"
+    id="btn"
+    onSubmit={[Function]}
+  >
+    <div>
+      <label
+        htmlFor="InputValue"
+      >
+        Bank Name
+      </label>
+      <input
+        id="InputValue"
+        label="Message"
+        name="bankName"
+        onChange={[Function]}
+        placeholder="Bank Name"
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <label
+        htmlFor="InputValue2"
+      >
+        Account Number
+      </label>
+      <input
+        id="InputValue2"
+        name="accNumber"
+        onChange={[Function]}
+        placeholder="Account Number"
+        required={true}
+        type="text"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <label
+        htmlFor="InputValue3"
+      >
+        IFSC
+      </label>
+      <input
+        id="InputValue3"
+        name="IFSC"
+        onChange={[Function]}
+        placeholder="IFSC address"
+        required={true}
+        type="IFSC"
+        value=""
+      />
+    </div>
+    <br />
+    <div>
+      <label
+        htmlFor="InputValue4"
+      >
+        CVV
+      </label>
+      <input
+        id="InputValue4"
+        name="CVV"
+        onChange={[Function]}
+        placeholder="CVV"
+        required={true}
+        type="CVV"
+        value=""
+      />
+    </div>
+    <br />
+    <button
+      id="submit"
+      type="submit"
+      value="Submit"
+    >
+      Submit
+    </button>
+  </form>
+</div>
+`;
